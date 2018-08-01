@@ -1,5 +1,4 @@
 // Menu Button
-
 .menu-btn {
     position: absolute;
     z-index: 3;
@@ -16,7 +15,7 @@
         @include easeOut;
     }
 
-    // Toggle Nav button. Menu Lines into X.
+    // Toggle Nav button. Turn Menu Lines into X.
     &.close {
         transform: rotate(180deg);
 
@@ -134,5 +133,3 @@
         transition-delay: $x * 0.1s;
     }
 }
-
-
